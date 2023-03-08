@@ -21,6 +21,7 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
+  color: #4d5ae5;
 }
 .text-logo {
   font-family: "Raleway", sans-serif;
@@ -31,7 +32,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2e2f42;
   flex: none;
   order: 0;
   flex-grow: 0;
