@@ -114,6 +114,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+  color: #2e2f42;
 }
 .sub-text {
   font-weight: 400;
