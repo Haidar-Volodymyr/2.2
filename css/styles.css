@@ -217,6 +217,18 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
+.sub-text-progect {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
