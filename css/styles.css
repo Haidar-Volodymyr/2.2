@@ -10,7 +10,7 @@
   text-decoration: none;
 }
 body {
-  font-family: var(--prime-font);
+  font-family: "Roboto", sans-serif;
   color: var(--accent-color);
 }
 /* ==========HEADER========= */
