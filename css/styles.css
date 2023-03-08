@@ -1,3 +1,8 @@
+:root {
+  --prime-font: "Roboto", sans-serif;
+  --second-font: "Raleway", sans-serif;
+  --accent-color: #434455;
+}
 .list {
   list-style: none;
 }
@@ -5,8 +10,8 @@
   text-decoration: none;
 }
 body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
+  font-family: var(--prime-font);
+  color: var(--accent-color);
 }
 /* ==========HEADER========= */
 .logo-page {
@@ -185,16 +190,6 @@ body {
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
-}
-.text-button-filters {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .model-button-filter:hover,
