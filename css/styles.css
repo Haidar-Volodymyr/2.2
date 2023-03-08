@@ -5,7 +5,7 @@
   text-decoration: none;
 }
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #2e2f42;
 }
 /* ==========HEADER========= */
@@ -35,6 +35,9 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+.contact {
+  font-style: normal;
 }
 
 .menu-link {
