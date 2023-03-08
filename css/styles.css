@@ -4,10 +4,13 @@
 .link {
   text-decoration: none;
 }
+.global-style {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #2e2f42;
+}
 /* ==========HEADER========= */
 .logo-page {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
