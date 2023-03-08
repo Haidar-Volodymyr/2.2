@@ -1,9 +1,12 @@
 :root {
   --prime-font: "Roboto", sans-serif;
   --second-font: "Raleway", sans-serif;
-  --accent-color: #434455;
-  --second-color: #4d5ae5;
-  --content-color: #2e2f42;
+  --text-color: #434455;
+  --primary-brand-color: #4d5ae5;
+  --dark-color: #2e2f42;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --pressed-state-color: #404bbf;
 }
 .list {
   list-style: none;
@@ -13,7 +16,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--accent-color);
+  color: var(--text-color);
 }
 /* ==========HEADER========= */
 .logo-page {
@@ -28,7 +31,7 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
-  color: #4d5ae5;
+  color: var(--primary-brand-color);
 }
 .text-logo {
   font-family: "Raleway", sans-serif;
@@ -39,7 +42,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--dark-color);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -49,7 +52,7 @@ body {
 }
 
 .menu-link {
-  color: #2e2f42;
+  color: var(--dark-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -63,7 +66,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 /* ==========/HEADER========= */
 
@@ -81,7 +84,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-  background: #4d5ae5;
+  background: var(--primary-brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -121,14 +124,14 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-  color: #2e2f42;
+  color: var(--dark-color);
 }
 .sub-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -143,7 +146,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  color: #2e2f42;
+  color: var(--dark-color);
 }
 /*==========/SECTION ABOUT ======*/
 
@@ -152,7 +155,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -164,13 +167,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--accent-color);
 }
 .footer {
-  background: #2e2f42;
+  background: var(--dark-color);
 }
 .text-logo-footer {
-  color: #f4f4fd;
+  color: var(--light-color);
 }
 /*==============/FOOTER============*/
 
@@ -187,8 +190,8 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
+  background: var(--light-color);
+  border: 1px solid var(--accent-color);
   border-radius: 4px;
   cursor: pointer;
 }
@@ -208,12 +211,12 @@ body {
 .model-button-filter:hover,
 .model-button-filter:focus {
   color: #ffffff;
-  background: #4d5ae5;
+  background: var(--primary-brand-color);
   cursor: pointer;
 }
 .model-button:hover,
 .model-button:focus {
-  background: #404bbf;
+  background: var(--pressed-state-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -232,9 +235,9 @@ body {
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: #404bbf;
+  color: var(--pressed-state-color);
 }
 .main-contact:hover,
 .main-contact:focus {
-  color: #404bbf;
+  color: var(--pressed-state-color);
 }
