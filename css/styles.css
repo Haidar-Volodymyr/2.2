@@ -192,6 +192,18 @@ body {
   cursor: pointer;
 }
 
+.progect-card-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
 .model-button-filter:hover,
 .model-button-filter:focus {
   color: #ffffff;
