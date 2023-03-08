@@ -128,7 +128,7 @@
 /*==========/SECTION ABOUT ======*/
 
 /* ============TEAM============= */
-.text-team {
+.sub-text-h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -154,4 +154,20 @@
 
 /* +++++++++++++++++++++++++++PORTFOLIO++++++++++++++++++++++++ */
 .model-button-filter {
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.text-button-filters {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
