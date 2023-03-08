@@ -2,6 +2,7 @@
   --prime-font: "Roboto", sans-serif;
   --second-font: "Raleway", sans-serif;
   --accent-color: #434455;
+  --button-color: #4d5ae5;
 }
 .list {
   list-style: none;
@@ -181,14 +182,14 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--button-color);
   flex: none;
   order: 0;
   flex-grow: 0;
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  font-family: "Roboto", sans-serif;
+  font-family: var();
   cursor: pointer;
 }
 
