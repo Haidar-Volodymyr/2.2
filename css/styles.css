@@ -173,6 +173,7 @@ body {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 .text-button-filters {
   display: flex;
