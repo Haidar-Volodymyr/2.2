@@ -2,6 +2,7 @@
   --prime-font: "Roboto", sans-serif;
   --second-font: "Raleway", sans-serif;
   --accent-color: #434455;
+  --second-color: #4d5ae5;
 }
 .list {
   list-style: none;
@@ -199,7 +200,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--accent-color);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -224,7 +225,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--second-color);
   flex: none;
   order: 1;
   flex-grow: 0;
