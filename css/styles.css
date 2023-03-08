@@ -14,9 +14,10 @@
 .link {
   text-decoration: none;
 }
-body {
-  font-family: "Roboto", sans-serif;
+body{
+  font-family: "Roboto", sans-serif; 
   color: var(--text-color);
+}
 }
 /* ==========HEADER========= */
 .logo-page {
@@ -103,7 +104,7 @@ body {
 }
 
 .hero {
-  background: #2e2f42;
+  background: var(--dark-color);
 }
 .main-title {
   font-weight: 700;
