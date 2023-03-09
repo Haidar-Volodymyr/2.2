@@ -7,6 +7,7 @@
   --accent-color: #e7e9fc;
   --light-color: #f4f4fd;
   --pressed-state-color: #404bbf;
+  --white-color: #ffffff;
 }
 .list {
   list-style: none;
@@ -66,7 +67,6 @@ address {
   flex-grow: 0;
 }
 .main-contact {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -82,12 +82,8 @@ address {
   font-size: 16px;
   line-height: 1.5;
   display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  color: var(--white-color);
   background: var(--primary-brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -97,72 +93,52 @@ address {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
+  color: var(--white-color);
 
-.hero {
-  background: var(--dark-color);
-}
-.main-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-  text-align: center;
-}
-/* ===========/HERO=========== */
+  .hero {
+    background: var(--dark-color);
+  }
+  .main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+    text-align: center;
+  }
+  /* ===========/HERO=========== */
 
-/* ===========FEATURE==========*/
-.title-feature {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  color: var(--dark-color);
-}
-.sub-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-/* ===========/FEATURE==========*/
+  /* ===========FEATURE==========*/
+  .title-feature {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+  }
+  .sub-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+  }
+  /* ===========/FEATURE==========*/
 
-/*==========SECTION ABOUT ======*/
-.title-about {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-  color: var(--dark-color);
-}
-/*==========/SECTION ABOUT ======*/
+  /*==========SECTION ABOUT ======*/
+  .title-about {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--dark-color);
+  }
+  /*==========/SECTION ABOUT ======*/
 
-/* ============TEAM============= */
-.sub-text-h3 {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-  flex: none;
-  order: 2;
-  flex-grow: 0;
+  /* ============TEAM============= */
 }
 /* ============/TEAM============= */
 
@@ -205,16 +181,13 @@ address {
 }
 .model-button-filter:hover,
 .model-button-filter:focus {
-  color: #ffffff;
+  color: var(--white-color);
   background: var(--primary-brand-color);
-  cursor: pointer;
 }
 .model-button:hover,
 .model-button:focus {
   background: var(--pressed-state-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
 }
 .sub-text-progect {
   font-weight: 400;
