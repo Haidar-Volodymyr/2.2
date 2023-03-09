@@ -96,51 +96,47 @@ address {
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--white-color);
-
-  .hero {
-    background: var(--dark-color);
-  }
-  .main-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: var(--white-color);
-    text-align: center;
-  }
-  /* ===========/HERO=========== */
-
-  /* ===========FEATURE==========*/
-  .title-feature {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--dark-color);
-  }
-  .sub-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
-  }
-  /* ===========/FEATURE==========*/
-
-  /*==========SECTION ABOUT ======*/
-  .title-about {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
-    color: var(--dark-color);
-  }
-  /*==========/SECTION ABOUT ======*/
-
-  /* ============TEAM============= */
 }
-/* ============/TEAM============= */
+.hero {
+  background: var(--dark-color);
+}
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+  text-align: center;
+}
+/* ===========/HERO=========== */
+
+/* ===========FEATURE==========*/
+.title-feature {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+.sub-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+/* ===========/FEATURE==========*/
+
+/*==========SECTION ABOUT ======*/
+.title-about {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--dark-color);
+}
+/*==========/SECTION ABOUT ======*/
 
 /*==============FOOTER============*/
 .text-footer {
