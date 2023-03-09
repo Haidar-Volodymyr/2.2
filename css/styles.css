@@ -180,7 +180,7 @@ body {
 
 /* +++++++++++++++++++++++++++PORTFOLIO++++++++++++++++++++++++ */
 .model-button-filter {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--prime-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -199,7 +199,7 @@ body {
 }
 
 .progect-card-title {
-  font-family: "Roboto";
+  font-family: "Roboto" sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -224,7 +224,7 @@ body {
   cursor: pointer;
 }
 .sub-text-progect {
-  font-family: "Roboto";
+  font-family: "Roboto" sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
