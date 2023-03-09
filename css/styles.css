@@ -21,7 +21,7 @@ body {
 
 /* ==========HEADER========= */
 .logo-page {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--second-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -35,7 +35,7 @@ body {
   color: var(--primary-brand-color);
 }
 .text-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--second-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -73,7 +73,6 @@ body {
 
 /* ===========HERO=========== */
 .model-button {
-  font-family: "Roboto", sans-serif;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
