@@ -193,7 +193,6 @@ body {
 }
 
 .progect-card-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -214,7 +213,6 @@ body {
   cursor: pointer;
 }
 .sub-text-progect {
-  font-family: "Roboto" sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
