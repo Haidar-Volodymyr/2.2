@@ -188,6 +188,7 @@ body {
   color: var(--primary-brand-color);
   background: var(--light-color);
   border: 1px solid var(--accent-color);
+  border: transparent;
   border-radius: 4px;
   cursor: pointer;
 }
