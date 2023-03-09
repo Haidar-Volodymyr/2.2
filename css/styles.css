@@ -184,14 +184,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--primary-brand-color);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   background: var(--light-color);
   border: 1px solid var(--accent-color);
   border-radius: 4px;
@@ -205,9 +201,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .model-button-filter:hover,
 .model-button-filter:focus {
@@ -224,15 +217,11 @@ body {
 }
 .sub-text-progect {
   font-family: "Roboto" sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .menu-link:hover,
 .menu-link:focus {
