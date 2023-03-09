@@ -180,12 +180,10 @@ body {
 
 /* +++++++++++++++++++++++++++PORTFOLIO++++++++++++++++++++++++ */
 .model-button-filter {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: var(--primary-brand-color);
   background: var(--light-color);
