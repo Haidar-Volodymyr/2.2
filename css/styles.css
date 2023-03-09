@@ -19,6 +19,9 @@ body {
   color: var(--text-color);
 }
 
+address {
+  font-style: normal;
+}
 /* ==========HEADER========= */
 .logo-page {
   font-family: var(--second-font);
